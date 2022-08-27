@@ -1,3 +1,13 @@
+# asciimathml pandocfilter for DeepDwn editor
+a fork of [asciimathml-pandocfilter](https://github.com/nanikamado/asciimathml-pandocfilter).
+
+Made to make [DeepDwn](https://www.deepdwn.com/) created Markdown files compatible with pandoc and its features.
+
+The filter supports inline and block `math` sections.
+
+Known Issues:
+It does not work with this kind of equation alignment: `{(2x,+,17y,=,23),(x,-,y,=,5):}` (taken from [the asciimath website](http://asciimath.org/)) 
+
 asciimathml pandocfilter
 ========================
 
